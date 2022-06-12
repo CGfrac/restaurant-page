@@ -15,11 +15,11 @@ function createMenu() {
         for (const item of Menu[type]) {
             const name = document.createElement('h3');
             name.textContent = item.name;
-            mainDiv.appendChild(name);
 
             const description = document.createElement('p');
             description.textContent = item.description;
-            mainDiv.appendChild(description);
+
+            mainDiv.append(name, description);
         }
     }
 
