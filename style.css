@@ -1,0 +1,46 @@
+:root {
+    --border: 1px solid #000;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #CCC;
+    font-size: 1.25rem;
+}
+
+#content {
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+    height: 100vh;
+}
+
+nav > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 16px;
+    border-bottom: var(--border);
+    background-color: #EEE;
+}
+
+li:hover {
+    background-color: #fff;
+}
+
+.middle-tab {
+    border: var(--border);
+    border-top: none;
+}
+
+.active-tab {
+    background-color: #fff;
+    border-bottom-color: #AAA
+}
