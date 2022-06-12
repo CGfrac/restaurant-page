@@ -2,9 +2,9 @@ import createHome from './home.js';
 import createMenu from './menu.js';
 import createContact from './contact.js';
 
-const content = document.getElementById('content');
-
 const displayController = (() => {
+    const content = document.getElementById('content');
+
     const _clearPage = () => {
         const nav = document.querySelector('nav');
         while (content.lastElementChild !== nav) {
