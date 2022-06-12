@@ -1,0 +1,13 @@
+{
+    "Beverages": [
+        {"name": "Soda", "description": "It tickles when you drink it!"},
+        {"name": "Beer", "description": "Recommended to dwarves."}
+    ],
+    "Plates": [
+        {"name": "Pizza", "description": "The mutant turtle ninja's favorite dish!"},
+        {"name": "Cheezburger", "description": "You can has it."}
+    ],
+    "Desserts": [
+        {"name": "Pistachio icecream", "description": "I just like it so you should have some too."}
+    ]
+}

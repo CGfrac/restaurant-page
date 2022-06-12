@@ -2,7 +2,6 @@ import Home from './home.jpg';
 
 function createHome() {
     const mainDiv = document.createElement('div');
-    mainDiv.classList.add('main-content');
 
     const title = document.createElement('h1');
     title.textContent = 'Super cool restaurant';
