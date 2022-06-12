@@ -42,5 +42,5 @@ li:hover {
 
 .active-tab {
     background-color: #fff;
-    border-bottom-color: #AAA
+    border-bottom: none;
 }
