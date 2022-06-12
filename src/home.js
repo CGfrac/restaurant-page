@@ -1,6 +1,6 @@
 import Home from './home.jpg';
 
-function createMenu() {
+function createHome() {
     const mainDiv = document.createElement('div');
     mainDiv.classList.add('main-content');
 
@@ -20,4 +20,4 @@ function createMenu() {
     return mainDiv;
 }
 
-export default createMenu;
+export default createHome;
